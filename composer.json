@@ -1,0 +1,16 @@
+{
+    "name": "jobins/meilisearch",
+    "autoload": {
+        "psr-4": {
+            "JoBins\\Meilisearch\\": "src",
+            "JoBins\\Meilisearch\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JoBins\\Meilisearch\\ServiceProvider"
+            ]
+        }
+    }
+}
